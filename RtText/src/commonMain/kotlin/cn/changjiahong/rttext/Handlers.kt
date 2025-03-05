@@ -30,6 +30,7 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.text.ParagraphStyle
 import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withLink
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -135,7 +136,7 @@ val p = NodeHandler(P) { node ->
 
 val strong = NodeHandler(tags(B, STRONG)) { node: Node ->
     val (spanStyle, paragraphStyle) = node.parseStyle()
-    withStyle(style = SpanStyle().merge(spanStyle)) {
+    withStyle(style = SpanStyle(fontWeight = FontWeight.Bold).merge(spanStyle)) {
         appendChild(node)
     }
 }
