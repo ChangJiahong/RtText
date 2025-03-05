@@ -1,4 +1,4 @@
-package io.github.kotlin.fibonacci.cn.changjiahong.rttext
+package cn.changjiahong.rttext
 
 import androidx.compose.foundation.text.InlineTextContent
 import androidx.compose.runtime.Composable

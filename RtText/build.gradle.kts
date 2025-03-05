@@ -55,7 +55,7 @@ kotlin {
 }
 
 android {
-    namespace = "org.jetbrains.kotlinx.multiplatform.library.template"
+    namespace = "cn.changjiahong.rttext"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
@@ -77,7 +77,7 @@ mavenPublishing {
         name = "RtText"
         description = "一个Html显示组件"
         inceptionYear = "2025"
-        url = "https://github.com/kotlin/multiplatform-library-template/"
+        url = "https://github.com/ChangJiahong/RtText"
         licenses {
             license {
                 name = "The Apache License, Version 2.0"

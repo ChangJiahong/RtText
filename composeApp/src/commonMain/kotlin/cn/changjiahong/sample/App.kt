@@ -8,7 +8,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import io.github.kotlin.fibonacci.cn.changjiahong.rttext.RtHtml
+import cn.changjiahong.rttext.RtHtml
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 
