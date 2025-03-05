@@ -9,7 +9,11 @@ RtText是Kotlin Multiplatform 库，支持多平台IOS、Android、Desktop。
 
 ## 示例
 
-![001.png](image%2F001.png)   ![002.png](image%2F002.png)
+
+ <img src="./image/001.png" align="left" width="20%"/>
+ <img src="./image/002.png" align="" width="20%"/>
+
+ 
 
 ## 计划
 
@@ -220,6 +224,8 @@ RtText依赖以下lib，如果你使用了RtText，则不需要再重复添加�
 ## 觉得此存储库有用？
 
 通过加入此存储库的 __[stargazers](https://github.com/ChangJiahong/RtText/stargazers)__  来支持它。⭐
+
+
 也可以 __[Follow Me](https://github.com/ChangJiahong)__ 一起创作吧！🤩
 
 
